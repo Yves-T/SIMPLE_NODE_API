@@ -1,0 +1,26 @@
+{
+  "name": "simple_node_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.4",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
